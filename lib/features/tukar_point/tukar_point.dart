@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TukarPointScreen extends StatefulWidget {
-  const TukarPointScreen({Key? key}) : super(key: key);
+  const TukarPointScreen({super.key});
 
   @override
   State<TukarPointScreen> createState() => _TukarPointScreenState();

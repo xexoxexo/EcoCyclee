@@ -7,9 +7,9 @@ class EcoCycleLoadingScreen extends StatefulWidget {
   final bool isAutoNavigate;
 
   const EcoCycleLoadingScreen({
-    Key? key,
+    super.key,
     this.isAutoNavigate = true,
-  }) : super(key: key);
+  });
 
   @override
   State<EcoCycleLoadingScreen> createState() => _EcoCycleLoadingScreenState();

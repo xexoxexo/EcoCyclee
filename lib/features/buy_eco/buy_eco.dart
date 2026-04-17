@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 class BuyEcoScreen extends StatefulWidget {
-  const BuyEcoScreen({Key? key}) : super(key: key);
+  const BuyEcoScreen({super.key});
 
   @override
   State<BuyEcoScreen> createState() => _BuyEcoScreenState();
@@ -107,7 +107,7 @@ class _BuyEcoScreenState extends State<BuyEcoScreen> {
                 Text(
                   'Rp ${product.price}',
                   style: const TextStyle(
-                    color: const Color.fromARGB(255, 30, 142, 161),
+                    color: Color.fromARGB(255, 30, 142, 161),
                     fontWeight: FontWeight.bold,
                     fontSize: 14,
                   ),
